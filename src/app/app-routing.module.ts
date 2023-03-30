@@ -8,7 +8,9 @@ const routes: Routes = [
   { path: '', component: LoginComponent }, //Ruta vacia por defecto
   { path: 'dashboard', component: DashboardComponent }, //ruta a pantalla de inicio (dashboard)
   { path: 'login', component: LoginComponent }, //ruta a login con nombre
-  { path: 'notfound', component: NotFoundComponent } //ruta a login con nombre
+  { path: 'notfound', component: NotFoundComponent }, //ruta a login con nombre
+  {path: '**', component: NotFoundComponent},
+  {path: '', redirectTo: 'login', pathMatch: 'full'}
 
 
 ];
