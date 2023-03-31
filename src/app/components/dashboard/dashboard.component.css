@@ -94,7 +94,8 @@
     width: 100%; 
     height: calc(100% - 50px); 
     overflow-x:hidden; 
-    overflow-y:scroll; 
+    /* comentado para no ver otro scroll dentro del contenido de la pagina */
+    /* overflow-y:scroll;  */
     -webkit-overflow-scrolling: touch; 
     padding: 20px; 
     }

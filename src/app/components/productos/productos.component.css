@@ -1,0 +1,14 @@
+.styleminiatura{
+    padding-top: 15px;
+    background-color: rgb(233, 233, 233);
+}
+/* margen para componentes de la miniatura de los productos */
+.margenMiniatura{
+    max-width: 242px;
+    max-height:max-content;
+}
+/* asigna un maximo de tamaño para la imagend de los productos */
+.imgProdSize{
+    max-width: 242px;
+    max-height: 200px;
+}

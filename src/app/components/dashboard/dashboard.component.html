@@ -1,14 +1,15 @@
 <body>
-  <input type="checkbox" id="drawer-toggle" name="drawer-toggle"/>
+  <input type="checkbox" id="drawer-toggle" name="drawer-toggle" />
   <label for="drawer-toggle" id="drawer-toggle-label"></label>
   <header>{{nameEmpresa}}</header>
   <nav id="drawer">
-     <ul>
-        <li *ngFor="let modulo of modulos"><a href="#">{{modulo.descripcion}}</a></li>
-     </ul>
+    <ul>
+      <li *ngFor="let modulo of modulos"><a href="#">{{modulo.descripcion}}</a></li>
+    </ul>
   </nav>
   <div id="page-content">
-    <input type="search">
-    <button>Buscar</button>
+
+<app-productos></app-productos>
+
   </div>
 </body>

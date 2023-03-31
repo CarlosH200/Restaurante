@@ -1,0 +1,15 @@
+<div class="styleminiatura row">
+    <div class="col-sm-6 col-md-4" *ngFor="let producto of productos">
+        <div class="thumbnail">
+            <!-- img miniatura del producto -->
+            <img class="styleminiatura imgProdSize" src={{producto.imgLynk}} alt="...">
+            <div class="caption">
+                <!-- totulo de el producto -->
+                <h3>{{producto.titulo}}</h3>
+                <p class="margenMiniatura">{{producto.descripcion}}</p>
+                <p><a href="#" class="btn btn-primary" role="button">Agregar</a> <a href="#" class="btn btn-default"
+                        role="button">Ver</a></p>
+            </div>
+        </div>
+    </div>
+</div>
